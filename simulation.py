@@ -18,7 +18,7 @@ class Simulation:
         self.running = True
         if autostart:
             self.compframe_loop()
-        print("e")
+        
         
     def start(self):
         self.compframe_loop()
