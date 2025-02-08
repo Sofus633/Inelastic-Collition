@@ -24,6 +24,6 @@ def setjsonvalue(id, values):
         jsons[id] = {}
     if id in jsons:
         jsons[id][len(jsons[id])] = values
-    print(jsons)
+    
     with open("simlog.json", "w") as file:
         json.dump(jsons, file, indent=4)
